@@ -102,3 +102,8 @@ dist
 
 # TernJS port file
 .tern-port
+vendor/ujjwalwahi/rating/
+vendor/brotzka/laravel-dotenv-editor/
+vendor/laravel/telescope/
+vendor/ujjwalwahi/laravel-favorite/
+vendor/ujjwalwahi/plans/
