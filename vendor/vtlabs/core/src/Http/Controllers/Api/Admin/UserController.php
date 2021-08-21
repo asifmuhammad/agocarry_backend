@@ -51,7 +51,7 @@ class UserController extends Controller
             'mobile_verified' => 'required|boolean',
             'username' => 'sometimes|max:255',
             'image' => 'sometimes|image',
-            'language' => 'required|locale',
+            'language' => 'required',
             'roles' => ['required', 'array', 'role'],
             'meta' => 'sometimes|json|nullable',
         ]);
